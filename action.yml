@@ -1,0 +1,46 @@
+name: 'Orcs Have Issues Profile Badges'
+description: 'A GitHub action that tracks orcs-have-issues game achievements and adds badges to a profile readme.'
+branding:
+  icon: award
+  color: red
+inputs:
+  token:
+    description: 'GitHub token with content write permission'
+    required: false
+    default: ${{ github.token }}
+  repo:
+    description: 'The owner and repository name, for example, MikeAmputer/MikeAmputer'
+    required: false
+    default: ${{ github.repository }}
+  owner:
+    description: 'Repository owner'
+    required: false
+    default: ${{ github.repository_owner }}
+  branch:
+    description: 'Branch'
+    required: false
+    default: ${{ github.ref_name }}
+  readme:
+    description: 'Path to readme'
+    required: false
+    default: 'README.md'
+  size:
+    description: 'Size of badge icons in pixels'
+    required: false
+    default: '64'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - '--token'
+    - ${{ inputs.token }}
+    - '--repo'
+    - ${{ inputs.repo }}
+    - '--owner'
+    - ${{ inputs.owner }}
+    - '--branch'
+    - ${{ inputs.branch }}
+    - '--readme'
+    - ${{ inputs.readme }}
+    - '--size'
+    - ${{ inputs.size }}

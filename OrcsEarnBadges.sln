@@ -5,6 +5,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB8ABCBE-C6D1-4EFC-AC03-B42516CC0FC3}"
 	ProjectSection(SolutionItems) = preProject
 		Dockerfile = Dockerfile
+		action.yml = action.yml
 	EndProjectSection
 EndProject
 Global
