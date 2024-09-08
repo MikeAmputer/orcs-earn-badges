@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build-env
 
 COPY . ./
-RUN dotnet publish ./Action/Action.csproj -c Release -o /app/out --no-self-contained
+RUN dotnet publish ./Action/Action.csproj -c Release -o out --no-self-contained
 
 LABEL maintainer="Pavel Kravtsov <kravtsovpo@gmail.com>"
 LABEL repository="https://github.com/MikeAmputer/orcs-earn-badges"
@@ -13,7 +13,6 @@ LABEL com.github.actions.icon="award"
 LABEL com.github.actions.color="red"
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0
-WORKDIR /app
-COPY --from=build-env /app/out .
+COPY --from=build-env /out .
 
-ENTRYPOINT [ "dotnet", "Action.dll" ]
+ENTRYPOINT [ "dotnet", "/Action.dll" ]
