@@ -6,8 +6,7 @@ branding:
 inputs:
   token:
     description: 'GitHub token with content write permission'
-    required: false
-    default: ${{ github.token }}
+    required: true
   repo:
     description: 'The owner and repository name, for example, MikeAmputer/MikeAmputer'
     required: false
