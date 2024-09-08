@@ -1,5 +1,5 @@
 # orcs-earn-badges
-Github action repository to track your achievements in the Orcs Have Issues game
+A GitHub action that tracks [orcs-have-issues](https://github.com/MikeAmputer/orcs-have-issues) game achievements and adds badges to a profile readme.
 
 <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/newcomer.png" alt="Newcomer" title="Create a character issue" width="64">
 
