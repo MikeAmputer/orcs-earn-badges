@@ -9,6 +9,7 @@ public abstract class Badge
 		new Newcomer(),
 		new ReactionsBronze(), new ReactionsSilver(), new ReactionsGold(),
 		new CyclesBronze(), new CyclesSilver(), new CyclesGold(),
+		new CleanIssue(),
 	];
 
 	private const string ImageRoute = "https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img";
