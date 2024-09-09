@@ -18,7 +18,7 @@ var ghClient = new GitHubClient(productInfo, credentialStore);
 var badgeRepo = await ghClient.Repository.Get(options.RepositoryOwner, options.RepositoryName);
 
 var gameRepo = await ghClient.Repository.Get(gameRepoOwner, gameRepoName);
-var characterIssue = await ghClient.GetCharacterIssue(gameRepo.Id);
+var characterIssue = await ghClient.GetCharacterIssue(gameRepo.Id, options.RepositoryOwner);
 
 if (characterIssue == null)
 {
@@ -26,6 +26,8 @@ if (characterIssue == null)
 
 	return;
 }
+
+Console.WriteLine($"Issue number #{characterIssue.Number}");
 
 var characterStateComment = await ghClient.GetCharacterStateComment(gameRepo, characterIssue.Number);
 var statistics = characterStateComment?.GetCharacterStatistics();

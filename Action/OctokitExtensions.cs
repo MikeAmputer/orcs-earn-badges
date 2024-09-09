@@ -10,17 +10,18 @@ public static class OctokitExtensions
 
 	private static readonly Regex DtoRegex = new(DtoRegexPattern, RegexOptions.Compiled);
 
-	public static async Task<Issue?> GetCharacterIssue(this IGitHubClient gitHubClient, long gameRepoId)
+	public static async Task<Issue?> GetCharacterIssue(this IGitHubClient gitHubClient, long gameRepoId, string creator)
 	{
 		ArgumentNullException.ThrowIfNull(gitHubClient);
 
 		var issueRequest = new RepositoryIssueRequest
 		{
-			Filter = IssueFilter.Created,
+			Filter = IssueFilter.All,
 			Labels = { "character" },
 			State = ItemStateFilter.Open,
 			SortProperty = IssueSort.Updated,
 			SortDirection = SortDirection.Descending,
+			Creator = creator,
 		};
 
 		var issueRequestOptions = new ApiOptions
