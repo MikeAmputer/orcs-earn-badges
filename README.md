@@ -3,8 +3,8 @@ A GitHub action that tracks [orcs-have-issues](https://github.com/MikeAmputer/or
 
 <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/newcomer.png" alt="Newcomer" title="Create a character issue" width="64"></a>
 <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-bronze.png" alt="Reactions Bronze" title="Earn 5 heart emojis on your character issue" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-silver.png" alt="Reactions Bronze" title="Earn 25 heart emojis on your character issue" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-gold.png" alt="Reactions Bronze" title="Earn 100 heart emojis on your character issue" width="64"></a>
+<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-silver.png" alt="Reactions Silver" title="Earn 25 heart emojis on your character issue" width="64"></a>
+<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-gold.png" alt="Reactions Gold" title="Earn 100 heart emojis on your character issue" width="64"></a>
 
 ## Installation
 Create a character in the [orcs-have-issues repository](https://github.com/MikeAmputer/orcs-have-issues) to earn your first badge.
