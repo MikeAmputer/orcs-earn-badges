@@ -8,6 +8,7 @@ A GitHub action that tracks [orcs-have-issues](https://github.com/MikeAmputer/or
 <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-bronze.png" alt="Cycles Bronze" title="Play for 10 days total" width="64"></a>
 <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-silver.png" alt="Cycles Silver" title="Play for 100 days total" width="64"></a>
 <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-gold.png" alt="Cycles Gold" title="Play for 365 days total" width="64"></a>
+<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/clean-issue.png" alt="Clean Issue" title="Keep your character issue clean" width="64"></a>
 
 ## Installation
 Create a character in the [orcs-have-issues repository](https://github.com/MikeAmputer/orcs-have-issues) to earn your first badge.
