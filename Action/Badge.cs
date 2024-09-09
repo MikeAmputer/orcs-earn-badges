@@ -7,9 +7,8 @@ public abstract class Badge
 	public static IReadOnlyCollection<Badge> All =>
 	[
 		new Newcomer(),
-		new ReactionsBronze(),
-		new ReactionsSilver(),
-		new ReactionsGold(),
+		new ReactionsBronze(), new ReactionsSilver(), new ReactionsGold(),
+		new CyclesBronze(), new CyclesSilver(), new CyclesGold(),
 	];
 
 	private const string ImageRoute = "https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img";
@@ -24,6 +23,7 @@ public abstract class Badge
 	public string GetHtml(int width, string url)
 	{
 		var img = $"<img src=\"{ImageRoute}/{Image}.png\" alt=\"{Alt}\" title=\"{Description}\" width=\"{width}\">";
+
 		return $"<a href=\"{url}\">{img}</a>";
 	}
 }
