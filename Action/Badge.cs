@@ -1,5 +1,4 @@
 ﻿using Action.Badges;
-using Octokit;
 
 namespace Action;
 
@@ -15,12 +14,12 @@ public abstract class Badge
 
 	private const string ImageRoute = "https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img";
 
-	public abstract string UniqueName { get; }
 	protected abstract string Image { get; }
 	protected abstract string Alt { get; }
 	protected abstract string Description { get; }
 
-	public abstract bool IsAchieved(Issue issue, CharacterStatistics statistics);
+	public abstract bool IsAchieved(CharacterData data);
+	public abstract bool IsUpgraded(CharacterData data);
 
 	public string GetHtml(int width, string url)
 	{

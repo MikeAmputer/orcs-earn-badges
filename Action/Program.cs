@@ -39,8 +39,15 @@ if (statistics == null)
 	return;
 }
 
+var characterData = new CharacterData
+{
+	Issue = characterIssue,
+	Statistics = statistics,
+};
+
 var achievementRepresentations = Badge.All
-	.Where(b => b.IsAchieved(characterIssue, statistics))
+	.Where(b => b.IsAchieved(characterData))
+	.Where(b => !b.IsUpgraded(characterData))
 	.ToList();
 
 var repositoryContents = await ghClient.Repository.Content.GetAllContents(badgeRepo.Id, options.ReadmePath);
