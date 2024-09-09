@@ -43,7 +43,7 @@ jobs:
 
 This will automatically run the action daily at 1:30 UTC (1 hour after the game simulation), and will also let you to run it manually right now or any other time.
 
-[Generate a Personal Access Token](https://github.com/settings/personal-access-tokens/new) with `contents` permission. This token will be used to update the readme file.
+[Generate a Personal Access Token](https://github.com/settings/personal-access-tokens/new) with `contents` write permission. This token will be used to update the readme file.
 
 <img src="https://github.com/user-attachments/assets/b0b22038-cfd0-44d1-a841-a06ae20a5927" width="40%"/>
 <img src="https://github.com/user-attachments/assets/d6376280-3170-42ae-bb5c-0d5467d95549" width="60%"/>
