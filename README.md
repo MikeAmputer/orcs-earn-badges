@@ -1,14 +1,26 @@
 # orcs-earn-badges
 A GitHub action that tracks [orcs-have-issues](https://github.com/MikeAmputer/orcs-have-issues) game achievements and adds badges to a profile readme.
 
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/newcomer.png" alt="Newcomer" title="Create a character issue" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-bronze.png" alt="Reactions Bronze" title="Earn 5 heart emojis on your character issue" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-silver.png" alt="Reactions Silver" title="Earn 25 heart emojis on your character issue" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-gold.png" alt="Reactions Gold" title="Earn 100 heart emojis on your character issue" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-bronze.png" alt="Cycles Bronze" title="Play for 10 days total" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-silver.png" alt="Cycles Silver" title="Play for 100 days total" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-gold.png" alt="Cycles Gold" title="Play for 365 days total" width="64"></a>
-<a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/clean-issue.png" alt="Clean Issue" title="Keep your character issue clean" width="64"></a>
+<table>
+  <tr>
+    <td width="160">
+      <p align="center">
+        <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/character/orc-1.png" alt="Level 1, Orc" title="Level 1, Orc" width="64"></a>
+        <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/character/human-3.png" alt="Level 3, Orc" title="Level 3, Human" width="64"></a>
+      </p>
+    </td>
+    <td>
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/newcomer.png" alt="Newcomer" title="Create a character issue" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-bronze.png" alt="Reactions Bronze" title="Earn 5 heart emojis on your character issue" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-silver.png" alt="Reactions Silver" title="Earn 25 heart emojis on your character issue" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/reactions-gold.png" alt="Reactions Gold" title="Earn 100 heart emojis on your character issue" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-bronze.png" alt="Cycles Bronze" title="Play for 10 days total" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-silver.png" alt="Cycles Silver" title="Play for 100 days total" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/cycles-gold.png" alt="Cycles Gold" title="Play for 365 days total" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/clean-issue.png" alt="Clean Issue" title="Keep your character issue clean" width="64">
+    </td>
+  </tr>
+</table>
 
 ## Installation
 Create a character in the [orcs-have-issues repository](https://github.com/MikeAmputer/orcs-have-issues) to earn your first badge.
