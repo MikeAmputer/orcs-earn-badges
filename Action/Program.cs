@@ -53,12 +53,8 @@ var achievementRepresentations = Badge.All
 var repositoryContents = await ghClient.Repository.Content.GetAllContents(badgeRepo.Id, options.ReadmePath);
 var readme = repositoryContents.Single();
 
-var content = new ReadmeProcessor(
-		readme.Content,
-		achievementRepresentations,
-		options,
-		characterIssue)
-	.GetContent();
+var content = new ReadmeProcessor(readme.Content, achievementRepresentations)
+	.GetContent(characterData, options.IconSize);
 
 var updateRequest = new UpdateFileRequest("Update orcs-have-issues badges", content, readme.Sha, options.Branch);
 

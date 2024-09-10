@@ -21,10 +21,8 @@ public abstract class Badge
 	public abstract bool IsAchieved(CharacterData data);
 	public abstract bool IsUpgraded(CharacterData data);
 
-	public string GetHtml(int width, string url)
+	public string GetHtml(int width)
 	{
-		var img = $"<img src=\"{ImageRoute}/{Image}.png\" alt=\"{Alt}\" title=\"{Description}\" width=\"{width}\">";
-
-		return $"<a href=\"{url}\">{img}</a>";
+		return $"<img src=\"{ImageRoute}/{Image}.png\" alt=\"{Alt}\" title=\"{Description}\" width=\"{width}\">";
 	}
 }
