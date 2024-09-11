@@ -11,4 +11,9 @@ public class CharacterData
 
 	public bool IsOrc => Issue.Labels.Any(l => l.Name == "orc");
 	public int WargearRank => CharacterDto.ArmorRank + CharacterDto.WeaponRank;
+
+	public int GetKills(Enemy enemyType)
+	{
+		return Statistics.Kills.GetValueOrDefault(enemyType, 0);
+	}
 }
