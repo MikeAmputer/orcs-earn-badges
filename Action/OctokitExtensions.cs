@@ -57,7 +57,7 @@ public static class OctokitExtensions
 			.MinBy(comment => comment.CreatedAt);
 	}
 
-	public static CharacterStatistics GetCharacterStatistics(this IssueComment? comment)
+	public static CharacterDto GetCharacterDto(this IssueComment? comment)
 	{
 		if (comment == null || string.IsNullOrWhiteSpace(comment.Body))
 		{
@@ -71,7 +71,7 @@ public static class OctokitExtensions
 			return new();
 		}
 
-		return JsonSerializer.Deserialize<CharacterDto>(jsonString)?.Statistics
+		return JsonSerializer.Deserialize<CharacterDto>(jsonString)
 			?? throw new InvalidOperationException($"Unable to deserialize character DTO: {comment.HtmlUrl}.");
 	}
 }

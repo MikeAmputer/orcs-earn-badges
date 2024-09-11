@@ -30,11 +30,11 @@ if (characterIssue == null)
 Console.WriteLine($"Issue number #{characterIssue.Number}");
 
 var characterStateComment = await ghClient.GetCharacterStateComment(gameRepo, characterIssue.Number);
-var statistics = characterStateComment?.GetCharacterStatistics();
+var characterDto = characterStateComment?.GetCharacterDto();
 
-if (statistics == null)
+if (characterDto == null)
 {
-	Console.WriteLine("Unable to load character statistics");
+	Console.WriteLine("Unable to load character data");
 
 	return;
 }
@@ -42,7 +42,7 @@ if (statistics == null)
 var characterData = new CharacterData
 {
 	Issue = characterIssue,
-	Statistics = statistics,
+	CharacterDto = characterDto,
 };
 
 var achievementRepresentations = Badge.All

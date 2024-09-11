@@ -9,6 +9,7 @@ public abstract class Badge
 		new Newcomer(),
 		new ReactionsBronze(), new ReactionsSilver(), new ReactionsGold(),
 		new CyclesBronze(), new CyclesSilver(), new CyclesGold(),
+		new CraftBronze(), new CraftSilver(), new CraftGold(),
 		new CleanIssue(),
 	];
 
