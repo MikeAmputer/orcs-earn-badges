@@ -26,6 +26,9 @@ A GitHub action that tracks [orcs-have-issues](https://github.com/MikeAmputer/or
       <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/goblin-slayer-bronze.png" alt="Goblin Slayer Bronze" title="Slay 10 goblins" width="64">
       <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/goblin-slayer-silver.png" alt="Goblin Slayer Silver" title="Slay 50 goblins" width="64">
       <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/goblin-slayer-gold.png" alt="Goblin Slayer Gold" title="Slay 250 goblins" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/bandit-slayer-bronze.png" alt="Bandit Slayer Bronze" title="Slay 10 bandits" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/bandit-slayer-silver.png" alt="Bandit Slayer Silver" title="Slay 50 bandits" width="64">
+      <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/bandit-slayer-gold.png" alt="Bandit Slayer Gold" title="Slay 250 bandits" width="64">
       <img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/clean-issue.png" alt="Clean Issue" title="Keep your character issue clean" width="64">
     </td>
   </tr>
