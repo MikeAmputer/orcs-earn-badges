@@ -3,7 +3,7 @@ A GitHub action that tracks [orcs-have-issues](https://github.com/MikeAmputer/or
 
 <table>
   <tr>
-    <td width="160">
+    <td width="90">
       <p align="center">
         <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/character/orc-1.png" alt="Level 1, Orc" title="Level 1, Orc" width="64"></a>
         <a><img src="https://github.com/MikeAmputer/orcs-earn-badges/blob/master/img/character/human-3.png" alt="Level 3, Orc" title="Level 3, Human" width="64"></a>
