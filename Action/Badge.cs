@@ -13,6 +13,7 @@ public abstract class Badge
 		new SpiderSlayerBronze(), new SpiderSlayerSilver(), new SpiderSlayerGold(),
 		new GoblinSlayerBronze(), new GoblinSlayerSilver(), new GoblinSlayerGold(),
 		new BanditSlayerBronze(), new BanditSlayerSilver(), new BanditSlayerGold(),
+		new UndeadSlayerBronze(), new UndeadSlayerSilver(), new UndeadSlayerGold(),
 		new CleanIssue(),
 	];
 
