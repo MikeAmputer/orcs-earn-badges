@@ -49,7 +49,7 @@ Edit README.md and add the following comment lines (badges will appear between t
 <!-- orcs-earn-badges -->
 ```
 
-Create a new worflow in your repository at `.github/workflows/orcs-earn-badges.yml`:
+Create a new workflow (add file) in your repository at `.github/workflows/orcs-earn-badges.yml`:
 
 ```yml
 name: Orcs Have Issues Badges
