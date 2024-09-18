@@ -6,7 +6,6 @@ public abstract class Badge
 {
 	public static IReadOnlyCollection<Badge> All =>
 	[
-		new Newcomer(),
 		new ReactionsBronze(), new ReactionsSilver(), new ReactionsGold(),
 		new CyclesBronze(), new CyclesSilver(), new CyclesGold(),
 		new CraftBronze(), new CraftSilver(), new CraftGold(),
@@ -14,6 +13,8 @@ public abstract class Badge
 		new GoblinSlayerBronze(), new GoblinSlayerSilver(), new GoblinSlayerGold(),
 		new BanditSlayerBronze(), new BanditSlayerSilver(), new BanditSlayerGold(),
 		new UndeadSlayerBronze(), new UndeadSlayerSilver(), new UndeadSlayerGold(),
+		new PvpKillsBronze(), new PvpKillsSilver(), new PvpKillsGold(),
+		new Newcomer(),
 		new CleanIssue(),
 	];
 
